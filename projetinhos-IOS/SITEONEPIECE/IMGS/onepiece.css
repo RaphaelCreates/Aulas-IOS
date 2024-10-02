@@ -1,0 +1,88 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: 65.5%;
+}
+#logo{
+    
+    display: block;   /* Faz a imagem se comportar como um bloco */
+    margin: 0 auto;   /* Centraliza horizontalmente */
+    max-width: 100%;  /* Garante que a imagem não ultrapasse a largura do contêiner */
+    height: 350px;  
+}
+
+ul li{
+    
+  
+    padding: 55px;
+    font-size: 55px;
+    text-align: center;
+    
+   
+   
+  
+}
+  
+   a{
+    color: rgb(14, 15, 15);
+    text-decoration: none;
+    
+   
+    
+    
+   }
+    
+  a:hover{
+    color: aliceblue;
+  }
+
+body {
+    background-color: aquamarine;
+}
+
+
+
+.oqueé{
+    background-color: aliceblue;
+    border: groove;
+    border-color: black;
+    font-size: 35px;
+}
+
+
+#eps {
+    width: 600px;
+    position: relative;
+   left: 70%;
+   
+    
+}
+#episodios{
+    background-color: aliceblue;
+    border: groove;
+    border-color: black;
+    font-size: 45px;
+    
+}
+h3{
+    
+    background-color: rgb(214, 211, 12);
+    width: 250px;
+    border-radius: 95px;
+    text-align: center;
+}
+h4{
+    
+    text-align: center;
+    background-color: rgb(187, 184, 7);
+    border: groove;
+    border-color: black;
+    width: 300px;
+    font-size: 35px;
+    margin: auto;
+}
+
+
+
+ 
+

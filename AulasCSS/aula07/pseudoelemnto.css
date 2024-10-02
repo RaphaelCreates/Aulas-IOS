@@ -1,0 +1,15 @@
+    *{
+        padding: opx;
+        margin: 0px;
+        font-size: 62.5%;
+    }
+    #after::after{
+        
+        content:url(darth-vader-taking-gopro-selfies-on-moon-and-mars-v0-zmctvjnvki8a1.webp)
+        
+    }
+    #after{
+        font-size: 50px;
+    }
+    
+    ::content

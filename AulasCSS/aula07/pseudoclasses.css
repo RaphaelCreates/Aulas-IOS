@@ -1,0 +1,11 @@
+li:first-child{
+    color: blue;
+}
+h2:active{
+    font-size: 200px;
+    color: blue;
+}
+h3::after{
+    color: aqua;
+    content: " ←";
+}

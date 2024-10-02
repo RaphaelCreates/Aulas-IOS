@@ -1,0 +1,44 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-size: 62, 5%;
+}
+
+body {
+    background-color: rgb(88, 167, 42);
+}
+
+#block {
+    background-color: aliceblue;
+   border: solid chocolate;
+}
+
+.block {
+
+    width: 100px;
+    height: 100px;
+    border: 3px solid rgb(13, 184, 98);
+    color: aliceblue;
+    background-color: rgb(100, 100, 100);
+    display: block;
+    line-height: 15px;
+}
+
+#inline {
+    background-color: aliceblue;
+}
+
+.inline {
+    display: inline;
+    width: 100px;
+    height: 100px;
+    border: 3px solid black;
+
+
+}
+#flex{
+    background-color: aliceblue;
+}
+#inline-flex{
+    background-color: aliceblue;
+}
