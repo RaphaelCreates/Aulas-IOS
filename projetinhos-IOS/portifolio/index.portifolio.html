@@ -5,42 +5,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio Raphael</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="portifolio.css">
+    
 </head>
 
 <body>
     <header>
         <nav>
-            <h1>welcome</h1>
-            <ul id="menu">
-                <li><a href="#me">more about me</a></li>
-                <li><a href="#journey">my journey</a></li>
+            <div id="welcome">Welcome
+
+            </div>
+            <div id="menu">
+            <ul>
+                <li><a href="#me">about</a></li>
+                <li><a href="#journey">experience</a></li>
                 <li><a href="#projects">projects</a></li>
                 <li><a href="#ctt">my Contact</a></li>
             </ul>
+            </div>
         </nav>
     </header>
-
+    <div class="welcome">
+<h1>Hello I'm raphael</h1>
+<p id="web">Web developer</p> 
+</div>
+ <img src="imgs/expo ciee dia 2-871 (1).png" alt="me" id="myphoto1"> 
     <main>
         <section id="me">
             <div class="mee">
-                <h2>Who's me?</h2>
-                <p>I'm a student passionate about programming, currently immersed in the world of C# and web
+                <h2 id="whosme">about</h2>
+
+
+                <p id="i'm">I'm a student passionate about programming, currently immersed in the world of C# and web
                     development.
                     <br>I'm learning to create both the visual part and the logic behind applications, and I dream of
                     working as a full stack developer. <br>I love exploring new technologies and solving challenges,
                     always looking for ways to make the web more incredible and functional.
                 </p>
+
             </div>
-            <div>
-                <h2 id="journey">My journey</h2>
-                <ul>
-                    <li>2020: Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem facilis aut excepturi
-                        fugit nostrum. Quisquam numquam, rem quo ipsum molestiae illo veniam voluptatem reiciendis ad,
-                        veritatis, aut consequuntur nihil repellat.</li>
-                    <li>2022: Lorem ipsum dolor sit amet.</li>
-                    <li>2024: Lorem ipsum dolor sit amet.</li>
-                </ul>
+            <div class="experience">
+                <h2 >experience</h2>
+                <div id="experiencia1">
+                    <p>Lorem,   elit. Fuga, non. Aperiam <br>voluptates laborum autem consectetur adipisci deleniti sed <br>corporis. Mollitia, sapiente qquam blanditiis cupiditate laboriosam earum?</p>
+                </div>
+                <div id="experiencia2">
+                    <p>Lorem ipsum dolor sit amet.<br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, aliquid? <br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, id?</p>
+                </div>
             </div>
         </section>
         <section id="projects">
@@ -53,10 +64,11 @@
     <aside>
         <section id="ctt">
             <h3>Contact</h3>
-            <ul>
-                <li><a href="https://github.com/RaphaelCreates">GitHub</a></li>
-                <li><a href="https://www.linkedin.com/in/raphael-ferreira-92b80a300/">LinkedIn</a></li>
+            <ul id="contact">
+                <li id="licontact"><a href="https://github.com/RaphaelCreates">GitHub</a></li>
+                <li id="licontact"><a href="https://www.linkedin.com/in/raphael-ferreira-92b80a300/">LinkedIn</a></li>
             </ul>
+            <div id="email">
             <form action="https://api.staticforms.xyz/submit" method="post">
                 <fieldset>
                     <textarea id="mensagem" name="mensagem" cols="30" rows="10"
@@ -68,6 +80,7 @@
                         value="http://127.0.0.1:5500/Aulas-IOS/HTML/Exercicios%20HTML/thanks.portifolio.html">
                 </fieldset>
             </form>
+            </div>
         </section>
     </aside>
     <footer>

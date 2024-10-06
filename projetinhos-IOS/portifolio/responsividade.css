@@ -1,0 +1,63 @@
+
+/* Media Queries */
+
+/* Telas pequenas (até 767px - celulares) */
+@media (max-width: 767px) {
+    #menu ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    #welcome h1 {
+        font-size: 1.8rem;
+    }
+
+    p, ul {
+        text-align: center;
+    }
+    
+    main, aside {
+        padding: 10px;
+    }
+    
+    #myphoto1 {
+        width: 90%;
+        height: auto;
+    }
+    
+    #projects ul {
+        text-align: center;
+    }
+    
+    form textarea {
+        width: 100%;
+    }
+
+    form input[type="submit"] {
+        width: 100%;
+    }
+}
+
+/* Telas médias (768px até 1024px - tablets) */
+@media (min-width: 768px) and (max-width: 1024px) {
+    #menu ul li {
+        margin-right: 10px;
+    }
+
+    #welcome h1 {
+        font-size: 2rem;
+    }
+
+    .mee {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    main, aside {
+        margin: 15px 0;
+    }
+
+    #myphoto1 {
+         width: 50%;
+    }
