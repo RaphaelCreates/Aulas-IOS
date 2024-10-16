@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>atividade04</title>
+</head>
+<body>
+    <script>
+        
+        
+let peso = prompt("digite seu peso");
+let altura = prompt("agora digite sua altura");
+        
+        let imc = peso / (altura ** 2); 
+    alert(`Seu IMC é: ${imc.toFixed(2)}`);
+    
+    if (imc >= 18.5 && imc <= 24.9) {
+        alert("Seu IMC está dentro do intervalo saudável.");
+    } else {
+        alert("Seu IMC está fora do intervalo saudável.");
+    }
+    </script>
+</body>
+</html>
