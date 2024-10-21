@@ -1,12 +1,6 @@
 let precoProduto = prompt("Informe o valor do produto:");
-
-
 let codigoPromocional = prompt("Informe o código promocional (DESC1, DESC2, DESC3, DESC4, DESC5):").toUpperCase();
-
-
 let desconto = 0;
-
-
 switch (codigoPromocional) {
     case "DESC1":
         desconto = 0.05; // 5% de desconto
@@ -33,10 +27,9 @@ switch (codigoPromocional) {
         return; // Finaliza o programa se o código for inválido
 }
 
-// Calcula o valor com desconto
+
 let valorDesconto = precoProduto * desconto;
 let valorComDesconto = precoProduto - valorDesconto;
 
-// Exibe o valor original e o valor com desconto
 console.log(`Valor original do produto: R$ ${precoProduto.toFixed(2)}`);
 console.log(`Valor com desconto: R$ ${valorComDesconto.toFixed(2)}`);
